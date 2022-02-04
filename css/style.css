@@ -68,6 +68,10 @@ header .main-header {
 	color: #fff;
 }
 
+p{
+	text-align: justify;
+}
+
 .navbar {
 	padding: 0;
 }
@@ -1217,6 +1221,10 @@ a.canvasjs-chart-credit {
 .legend span {
 	float: right;
 }
+
+/*.tp-parallax-wrap:nth-child(2) {
+    top: 300px!important;
+}*/
 
 /*------------------
 Service section
