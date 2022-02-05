@@ -68,9 +68,9 @@ header .main-header {
 	color: #fff;
 }
 
-p{
+/*p{
 	text-align: justify;
-}
+}*/
 
 .navbar {
 	padding: 0;
@@ -2383,6 +2383,9 @@ footer .subscribe-form {
 	transform: translate(0%, -30%);
 }
 
+.social-media .social.discuss li a{
+	color: #ffffff!important;
+}
 .social-media .social {
 	list-style: none;
 }

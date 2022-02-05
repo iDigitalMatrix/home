@@ -118,7 +118,9 @@ a, button, input {
 	outline: medium none !important;
 	color: #1b0e3d;
 }
-
+.social-media .ul.social.discuss li a{
+	color: #ffffff!important;
+}
 .uppercase {
 	text-transform: uppercase;
 }
