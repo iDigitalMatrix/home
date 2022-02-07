@@ -21,17 +21,29 @@ NOTE: This file contains the styling for responsive Template.
 	.container {
 		max-width: 720px
 	}
-
+	.social-media.d-inline-block.float-left.ml-4 {
+	    margin-left: 220px!important;
+	}
 }
 
 @media (min-width:992px) {
 	.container {
 		max-width: 960px
 	}
-
+	.social-media.d-inline-block.float-left.ml-4 {
+	    margin-left: 300px!important;
+	}
 }
 
+@media (min-width:1024px) {
+	.social-media.d-inline-block.float-left.ml-4 {
+	    margin-left: 190px!important;
+	}
+}
 @media (min-width:1365px) {
+	.social-media.d-inline-block.float-left.ml-4 {
+	    margin-left: 290px!important;
+	}
 	.container {
 		max-width: 1140px
 	}
@@ -279,6 +291,9 @@ header.header-four  .container-fluid {
 }
 
 @media(max-width:1339px) {
+	header .mega-menu .menu-links {
+	    padding-left: 420px;
+	}
 	header .mega-menu> .menu-list-items {
 		padding-top: 30px;
 	}
@@ -388,7 +403,7 @@ header.header-four  .container-fluid {
 	}
 
 	header .mega-menu .menu-links {
-		padding-left: 25px;
+		padding-left: 200px;
 	}
 
 	header .mega-menu .menu-links > li > a {
